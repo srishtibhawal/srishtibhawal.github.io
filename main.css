@@ -1,0 +1,214 @@
+body {
+    background-image: url("background.png");
+}
+
+/* logo center */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+/* nav bar background */
+.topnav {
+    background-color: coral;
+    border-radius: 30px;
+    width: 60%;
+    margin: auto;
+}
+
+/* nav bar links */
+.topnav a {
+    display: inline-block;
+    text-align: center;
+    color: black;
+    padding: 20px 50px 20px 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* nav bar links hover */
+.topnav a:hover{
+    color: crimson;
+}
+
+/* nav bar active links*/
+.topnav a:active {
+    color:white;
+}
+
+/* paragraph text */
+p {
+    color: white;
+    font-family: sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+/* home page text padding */
+.homepageptext {
+    font-size: 40px;
+    padding-top: 150px;
+    display: block;
+    width: 70%;
+}
+
+/* home page footer */
+#copyrightfooter {
+    width: 100%;
+    color: black;
+    position: fixed;
+    bottom: 10px;
+}
+
+/* all other footers */
+#copyrightfooter2 {
+    width: 100%;
+    color: black;
+    position: static;
+    bottom: 10px;
+}
+
+/* logo top left */
+.cornerlogo {
+    float: left;
+    width: 10%;
+}
+/* logo top right */
+.rightlogo {
+    float: right;
+    width: 10%;
+}
+
+/* h1 style */
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    color: white;
+}
+
+/* h3 style */
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+/* h3 black */
+.h3black {
+    color: black;
+}
+
+/* my notes */
+.mynotes {
+    color: white;
+    font-size: 12px;
+}
+
+/* td style */
+table td {
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    word-wrap: break-word;
+    width: 50%;
+    border: 5px dashed black;
+}
+
+/* table styling */
+table {
+    table-layout: fixed;
+    width: 90%;
+    margin: auto;
+}
+
+/* typical process styling */
+
+a {
+    display: block;
+    text-align: center;
+}
+
+.myprocess {
+    font-family: sans-serif;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    color: white;
+}
+
+/* my favourites table styling */
+.favourites {
+    text-align: left;
+}
+
+/* my sets table styling */
+.setsleft {
+    border: none;
+    text-align: left;
+}
+
+.setsright {
+    border: none;
+    text-align: right;
+}
+
+.noborder {
+    border: none;
+    color: black;
+    line-height: 35px;
+}
+
+.thickborder {
+    border: 5px dashed black;
+}
+
+/* unordered list styling */
+.list {
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+
+/* ordered list styling */
+.numberlist {
+    display: block;
+    width: 50%;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+    margin: auto;
+    line-height: 30px;
+    border: 5px dashed black;
+}
+
+/* pinterest embed */
+.pinterest {
+    display: block;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+}
+
+/* instagram embed */
+.instagram {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+/* socials links styling */
+.socials {
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+}
+
